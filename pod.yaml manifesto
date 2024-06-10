@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: java-web-app
+spec:
+  containers:
+  - name: java-web-apppod
+    image: rajutifull/java-web-app:latest 
+    ports:
+    - containerPort: 80
